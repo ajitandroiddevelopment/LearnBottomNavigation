@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.PdfGen" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- This sets the background color of the splash screen. -->
+        <item name="windowSplashScreenBackground">#5269E2</item>
+
+        <!-- This sets the icon that appears on the splash screen. -->
+        <!-- Make sure you have an icon at the specified drawable location. -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/learning</item>
+
+        <!--
+          IMPORTANT: This line tells Android which theme to apply
+          once the splash screen is done. We set it to your main app theme.
+        -->
+        <item name="postSplashScreenTheme">@style/Theme.PdfGen</item>
+    </style>
+</resources>
